@@ -4,9 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#000"
+    android:orientation="vertical"
+    android:background="#978080"
     tools:context=".SaludoActivity">
 
-
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bienvenidas"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:textAlignment="center"/>
 
 </LinearLayout>
